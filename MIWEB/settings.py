@@ -82,6 +82,7 @@ DATABASES = {
     }
 }
 
+
 DATABASES["default"] = dj_database_url.parse("postgresql://miweb_user:aYnyqA1stYakAOoSSoXDTvlMvFuxDQWE@dpg-cso69l0gph6c73bnb3h0-a.oregon-postgres.render.com/miweb")
 
 # Password validation
